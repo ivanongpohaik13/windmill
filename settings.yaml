@@ -5,6 +5,34 @@ deploy_ui: null
 ducklake: null
 error_handler: null
 error_handler_fallback_to_instance_alerts: false
+git_sync:
+  repositories:
+    - exclude_types_override: []
+      git_repo_resource_path: $res:u/pohaikong/windmill
+      group_by_folder: false
+      settings:
+        exclude_path: []
+        extra_include_path: []
+        include_path:
+          - f/**
+        include_type:
+          - script
+          - flow
+          - app
+          - folder
+          - resource
+          - resourcetype
+          - variable
+          - schedule
+          - trigger
+          - workspacedependencies
+          - datatablemigration
+          - group
+          - settings
+          - key
+          - user
+          - secret
+      use_individual_branch: false
 guest_access_enabled: false
 guest_jwt_jwks_url: null
 guest_jwt_public_key: null
