@@ -1,0 +1,5 @@
+description: ''
+value:
+  api_key: $var:f/shared/groq
+  base_url: ''
+resource_type: groq
