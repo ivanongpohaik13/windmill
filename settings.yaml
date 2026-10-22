@@ -1,0 +1,26 @@
+add_admins_and_developers_to_forks: false
+name: test
+dbt_warehouses: null
+deploy_ui: null
+ducklake: null
+error_handler: null
+error_handler_fallback_to_instance_alerts: false
+guest_access_enabled: false
+guest_jwt_jwks_url: null
+guest_jwt_public_key: null
+operator_settings:
+  assets: true
+  audit_logs: true
+  folders: true
+  groups: true
+  resources: true
+  runs: true
+  schedules: true
+  triggers: true
+  variables: true
+  workers: true
+public_app_execution_limit_per_minute: null
+slack_oauth_client_id: null
+slack_oauth_client_secret: null
+success_handler: null
+teams_command_script: null
